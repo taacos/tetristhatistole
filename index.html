@@ -3,46 +3,17 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 
-<!-- THIS SOFTWARE IS PROVIDED BY THE AUTHOR "AS IS" AND ANY EXPRESS
-OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED 
-WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE 
-ARE DISCLAIMED. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY 
-DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL 
-DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE 
-GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS 
-INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER 
-IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR 
-OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN 
-IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. -->
-
 <head>
 
 
-
-
-
-
-
-	<meta http-equiv="Content-Type" content="text/html" charset="utf-8"/> 
-	<meta name="keywords" content="steven lu, tetris, game, free, javascript, html5, browser, native, iOS, iPhone, iPad, iPad 2, Android, webkit, opera, chrome, touch, safari" />   
-	<meta name="description" content="This is a HTML5 tetris game that has wide browser support. It provides innovative intuitive touch controls for Apple iOS iPhone iPad products and also Android devices. " />
-	
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-	<meta name="apple-mobile-web-app-capable" content="yes" />
-	<meta names="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-
 	<title>Tetris!</title>	
 	
-	<!-- strokeText.js from http://www.netzgesta.de/dev/text/#overview 
-	
-	I need to switch to displaying game messages using regular elements rather than scrawling on canvas
-	
-	-->
+	<!-- strokeText.js from http://www.netzgesta.de/dev/text/#overview -->
 	<script src="strokeText.js"></script>
 
 	<link rel="stylesheet" href="page.css" type="text/css" />
     
-	<style type="text/css"> /* These are just for finger debug elements */
+	<style type="text/css"> /* some finger debug elements, whatever that means */
 		.finger-indicator {
 			position: absolute;
 			z-index: 4;
@@ -79,7 +50,7 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. -->
 <div id='indicatorcontainer'></div>
 
 	<canvas id="board_canvas" width="120" height="250" style="position:fixed; left:10px; top:10px; z-index:1">
-		Your browser does not support HTML5 Canvas.
+		Your browser doesn't support HTML5 Canvas probably haha.
 	</canvas>
 	<canvas id="animated_canvas" width="120" height="250" style="position:fixed; left:10px; top:10px; z-index:3"></canvas>
 	<canvas id="shadow_canvas" width="120" height="250" style="position:fixed; left:10px; top:10px; z-index:2"></canvas>
@@ -100,7 +71,7 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. -->
 	<div id='instr' style="display: none;"> 
 
 		<h1>HTML5 Tetris</h1>
-		<p> Touch events are now supported! Play on iOS and Android: <br/>
+		<p> You can play on ios and android too apparently lol <br/>
 		Swipe anywhere to move, tap to rotate (Can also tap while swiping to rotate). Swipe down to drop.
 		</p>
 		<p>
